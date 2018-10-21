@@ -1,12 +1,12 @@
 {
-  "name": "watchface",
+  "name": "va11halla",
   "author": "Rukkaitto",
   "version": "1.0.0",
   "keywords": ["pebble-app"],
   "private": true,
   "dependencies": {},
   "pebble": {
-    "displayName": "watchface",
+    "displayName": "VA-11 HALL-A",
     "uuid": "7bae6745-b100-4cc4-817b-2ebd698d1d26",
     "sdkVersion": "3",
     "enableMultiJS": true,
@@ -26,9 +26,14 @@
       "media": [
         {
           "type": "font",
-          "name": "FONT_VALLHALLA_48",
+          "name": "FONT_VALLHALLA_32",
           "file": "fonts/blrgpi.ttf",
           "compatibility": "2.7"
+        },
+        {
+          "type": "bitmap",
+          "name": "IMAGE_BACKGROUND",
+          "file": "images/background.png"
         }
       ]
     }
